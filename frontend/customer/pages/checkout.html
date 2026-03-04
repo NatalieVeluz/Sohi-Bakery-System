@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout - SOHI Bakery</title>
+    <link rel="stylesheet" href="../css/maincustomers.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<nav>
+    <h2>SOHI Bakery</h2>
+    <div>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+        <a href="my-orders.html">Orders</a>
+        <a href="#" id="authLink"></a>
+    </div>
+</nav>
+
+<!-- ================= CHECKOUT CONTENT ================= -->
+<div class="container">
+
+    <h1>Checkout</h1>
+
+    <div class="card-box">
+        <h3>Order Summary</h3>
+        <div id="orderSummary"></div>
+        <h3 id="checkoutTotal"></h3>
+    </div>
+
+    <div class="card-box">
+        <h3>Delivery Information</h3>
+
+        <input type="text" id="address" placeholder="Delivery Address"><br><br>
+
+        <select id="paymentMethod">
+            <option value="">Select Payment Method</option>
+            <option value="GCash">GCash</option>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+        </select><br><br>
+
+        <input type="text" id="proof" placeholder="Proof of Payment (Image URL)"><br><br>
+
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+
+</div>
+
+<script src="../js/auth.js"></script>
+<script src="../js/config.js"></script>
+
+<footer>
+    <p>© 2026 SOHI Bakery | Freshly Baked Happiness 🍞</p>
+</footer>
+
+</body>
+<script src="../js/checkout.js"></script>
+</html>

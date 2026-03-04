@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE products SYSTEM "products.dtd"?>
+
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+
+<products>
+
+    <product id="p1">
+        <name>Classic Chocolate Chip</name>
+        <description>Soft baked cookies</description>
+        <price>150</price>
+        <category>Popular</category>
+    </product>
+
+    <product id="p2">
+        <name>Red Velvet Cookie</name>
+        <description>Rich cocoa flavor</description>
+        <price>180</price>
+        <category>New Arrival</category>
+    </product>
+
+</products>
