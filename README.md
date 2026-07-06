@@ -1,12 +1,86 @@
-# SOHI BAKERY WEB SYSTEM
+# SOHI Bakery E-Commerce System
 
-A simple bakery management system with Admin and Customer roles.
+## Project Overview
+
+SOHI Bakery is a full-stack e-commerce web application developed for an online bakery business. The system allows customers to browse bakery products, place orders, upload proof of payment, track their orders, and submit product reviews. It also provides an administrative dashboard where administrators can manage products, categories, customers, orders, and customer reviews.
+
+The project follows a RESTful API architecture with secure user authentication using JSON Web Tokens (JWT). It was developed to provide a user-friendly online shopping experience while giving administrators complete control over bakery operations.
+
+---
+
+# Features
+
+## Customer Features
+
+- User Registration
+- Secure Login using JWT Authentication
+- Forgot Password
+- Browse Bakery Products
+- Product Categories
+- Search Products
+- View Product Details
+- Place Orders
+- Cash on Delivery (COD)
+- Upload Proof of Payment
+- View Order History
+- Submit Product Reviews after Completed Orders
+
+## Administrator Features
+
+- Dashboard Overview
+- Sales Analytics
+- Product Management (Create, Read, Update, Delete)
+- Category Management
+- Customer Management
+- Order Management
+- Update Order Status
+- Review Moderation
+- Search and Filter Products, Orders, Customers, and Reviews
+
+---
+
+# Technologies Used
+
+## Frontend
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Chart.js
+- Font Awesome
+
+## Backend
+
+- Node.js
+- Express.js
+- MySQL2
+- JSON Web Token (JWT)
+- BCrypt
+- Multer
+- dotenv
+
+## Database
+
+- MySQL
+
+---
+
+# Development Tools
+
+| Tool | Purpose |
+|------|---------|
+| Visual Studio Code (VS Code) | Frontend Development |
+| Visual Studio Code (VS Code) | Backend Development |
+| MySQL Workbench | Database Design and Management |
+| Node.js | JavaScript Runtime |
+| Git | Version Control |
+| GitHub | Repository Hosting |
 
 ---
 
 # HOW TO RUN THE PROJECT
 
-## 1️⃣ Setup the Database
+## 1️ Setup the Database
 
 1. Download the zip file  
 2. Open MySQL Workbench  
@@ -24,7 +98,7 @@ CREATE DATABASE sohi_bakery;
 
 ---
 
-## 2️⃣ Run the Backend
+## 2️ Run the Backend
 
 Open your terminal and run:
 
@@ -36,7 +110,7 @@ npm run dev
 
 ---
 
-## 3️⃣ Run the Frontend
+## 3️ Run the Frontend
 
 After the backend is running:
 
@@ -56,4 +130,15 @@ Open the HTML file inside the **frontend** folder in your browser.
 ## Customer Account
 
 - Email: test@gmail.com  
-- Password: 123456  
+- Password: 123456
+
+## Developer
+
+This project was developed as a full-stack bakery e-commerce system using HTML5, CSS3, JavaScript, Node.js, Express.js, MySQL, JWT Authentication, BCrypt, Chart.js, and Multer.
+
+### Development Environment
+
+- **Frontend:** Visual Studio Code (VS Code)
+- **Backend:** Visual Studio Code (VS Code)
+- **Database:** MySQL Workbench
+- **Version Control:** Git and GitHub
