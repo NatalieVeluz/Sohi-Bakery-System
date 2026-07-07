@@ -10,9 +10,9 @@ The project follows a RESTful API architecture with secure user authentication u
 
 ---
 
-# 📸 System Screenshots
+# Application Preview
 
-## 👤 Customer Pages
+## Customer Pages
 
 ### Home Page
 
@@ -62,7 +62,7 @@ The project follows a RESTful API architecture with secure user authentication u
 
 ---
 
-## 👨‍💼 Administrator Pages
+## Administrator Pages
 
 ### Dashboard
 
