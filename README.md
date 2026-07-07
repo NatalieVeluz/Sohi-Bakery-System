@@ -8,6 +8,86 @@ The project follows a RESTful API architecture with secure user authentication u
 
 ---
 
+---
+
+# 📸 System Screenshots
+
+## 👤 Customer Pages
+
+### Home Page
+
+![Customer Home Page](images/customer-home-page.png)
+
+---
+
+### Login Page
+
+![Login Page](images/login-page.png)
+
+---
+
+### Registration Page
+
+![Register Page](images/register-page.png)
+
+---
+
+### Product Catalog
+
+![Customer Product Page](images/customer-product-page.png)
+
+---
+
+### Product Details
+
+![Customer Product Details](images/customer-product-details-page.png)
+
+---
+
+### Shopping Cart
+
+![Customer Cart Page](images/customer-cart-page.png)
+
+---
+
+### Checkout
+
+![Customer Checkout Page](images/customer-checkout-page.png)
+
+---
+
+### My Orders
+
+![Customer Orders Page](images/customer-orders-page.png)
+
+---
+
+## 👨‍💼 Administrator Pages
+
+### Dashboard
+
+![Admin Dashboard](images/admin-dashboard-page.png)
+
+---
+
+### Product Management
+
+![Admin Product Management](images/admin-product-management-page.png)
+
+---
+
+### Order Management
+
+![Admin Order Management](images/admin-order-management-page.png)
+
+---
+
+### Customer Management
+
+![Admin Customer Management](images/admin-customer-management-page.png)
+
+---
+
 # Features
 
 ## Customer Features
